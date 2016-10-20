@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Firebase mRefChild = new Firebase("Name");
+                Firebase mRefChild = mRef.child("Name");
                 mRefChild.setValue("Sarath");
 
             }

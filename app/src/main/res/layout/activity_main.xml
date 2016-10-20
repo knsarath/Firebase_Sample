@@ -15,6 +15,9 @@
         android:text="Add data to firebase"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn" android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" android:layout_marginBottom="794dp"/>
+        android:id="@+id/btn"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"/>
 </RelativeLayout>
