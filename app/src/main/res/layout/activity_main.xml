@@ -11,10 +11,5 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.firebasetest.firebaseapp.MainActivity">
 
-    <Button
-        android:text="Add data to firebase"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btn" android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" android:layout_marginBottom="794dp"/>
+
 </RelativeLayout>
