@@ -27,8 +27,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 final String value = mEditText.getText().toString();
-                Firebase mRefChild = mRootRef.child(NAME);
-                mRefChild.setValue(value);
+                //Firebase mRefChild = mRootRef.child(NAME);
+
+
+                mRootRef.push().setValue(value); // each time it creates a new id as the object property 
 
             }
         });
