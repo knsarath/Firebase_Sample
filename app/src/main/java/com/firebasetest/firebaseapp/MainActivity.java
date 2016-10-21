@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 //Firebase mRefChild = mRootRef.child(NAME);
 
 
-                mRootRef.push().setValue(value); // each time it creates a new id as the object property 
+                mRootRef.push().setValue(value); // each time it creates a new id as the object property
 
             }
         });
