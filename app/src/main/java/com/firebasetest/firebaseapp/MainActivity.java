@@ -52,7 +52,11 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-
+                final String value = dataSnapshot.getValue(String.class);
+                if (mList.contains(value)) {
+                    mList.remove(value);
+                    adapter.notifyDataSetChanged();
+                }
             }
 
             @Override
